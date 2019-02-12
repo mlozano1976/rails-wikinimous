@@ -1,0 +1,10 @@
+<class ="style"%= @article.title %><br>
+<%= @article.content %>
+
+<%= link_to "Destroy this article", article_path(@article),
+method: :delete%>
+
+<%= link_to "Edit this article", edit_article_path %>
+
+<%= link_to "Back to list", articles_path %>
+
